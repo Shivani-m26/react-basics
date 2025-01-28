@@ -52,8 +52,3 @@ const Counter = () => {
         </>
     );
 };
-
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Counter />); // Rendering the component correctly

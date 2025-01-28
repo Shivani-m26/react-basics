@@ -1,8 +1,9 @@
+
+
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import uniqid from 'uniqid';
-   
+
 
 const CommentComponent=()=>{
     const [name,setName]=useState('');
@@ -77,9 +78,3 @@ const CommentComponent=()=>{
     
 
 }
-
-
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<CommentComponent />); // Rendering the component correctly
